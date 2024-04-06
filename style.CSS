@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+.left-box
+{
+	width:50vw;
+}
+
+.right-box
+{
+	width: 50vw;
+	height:1500px;
+	background-image:url("eliza_about_page_image.jpg");
+	background-size:cover;
+	background-position: center;
+	border-width: 2px;
+	border-color: darkgrey;
+	position:relative;
+	left:50vw;
+	top:-1500px;
+}
+
+h1,h2,h3 
+	{
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+	}
+
+h1 	{
+	font-size: 3rem;
+	text-align:center;
+	}
+
+h2 	{
+	font-size: xx-large;
+	margin-left:5vw;
+	}
+
+h3 	{ 
+	margin-left:5vw;
+	}
+
+header 
+	{
+	color: black;
+	}
+
+.page-header {
+	height: 15vh;
+	color:darkgrey;
+	text-align: center;
+	background-color: whitesmoke; 
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+strong {
+	font-size: 1.3rem;
+}
+
+.page-header >nav
+	{
+		text-align:left;
+	}
+
+nav > a {
+	color: rgb(36, 2, 63);
+	text-align:left;
+}
+
+nav > a:hover {
+	color: silver;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: chocolate;
+}
+
+footer {
+	background-color:grey;
+	text-align: center;
+}
+
+footer > span {
+	color: silver;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+}
+
+.about
+{
+	background-color:rgb(38, 56, 66);
+	font-weight:bold;
+}
+.about >h3
+{
+	color:#FFFFFF;
+}
+
+.about >p
+{
+	color:#FFFFFF;
+	margin-left:5vw;
+	margin-right:5vw;
+	text-align:justify;
+}
